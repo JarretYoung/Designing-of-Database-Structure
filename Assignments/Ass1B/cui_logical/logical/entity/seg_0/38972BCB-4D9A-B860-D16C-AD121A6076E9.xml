@@ -42,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>75</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="street_name" id="05A604EF-4CDA-6700-010A-E336B512BB66">
 <createdBy>NyanCarrot</createdBy>

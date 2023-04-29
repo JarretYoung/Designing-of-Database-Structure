@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="86DD9720-AFA1-440B-60F0-4F713AA17ECB" name="CONTRACT">
-<createdBy>NyanCarrot</createdBy>
-<createdTime>2023-04-28 08:38:26 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AE46290-81CA-73C7-56DE-F1FA840A2382" name="CONTRACT_WASTE_COLLECTION">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:34:30 UTC</createdTime>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
@@ -15,10 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cont_no" id="F44F5E27-33C0-AEFD-A7B5-995755628DF3">
-<createdBy>NyanCarrot</createdBy>
-<createdTime>2023-04-28 08:38:44 UTC</createdTime>
-<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<Attribute name="cont_no" id="A5BD445C-333F-5EF6-91DC-D125ABB8B3D4">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:34:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contract number]]></commentInRDBMS>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
@@ -29,88 +29,92 @@
 <dataTypeSize>5</dataTypeSize>
 <ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cont_start_date" id="5F1510CA-69D8-1B30-AF47-A1F46DDF00CB">
-<createdBy>NyanCarrot</createdBy>
-<createdTime>2023-04-28 08:39:47 UTC</createdTime>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cont_end_date" id="2527488D-1066-B067-0ECF-FF238FAEF229">
-<createdBy>NyanCarrot</createdBy>
-<createdTime>2023-04-28 08:40:10 UTC</createdTime>
-<commentInRDBMS><![CDATA[contract end date]]></commentInRDBMS>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="auth_name" id="69FCC6EC-76A1-27C9-9362-D9A4EE977848">
-<createdBy>NyanCarrot</createdBy>
-<createdTime>2023-04-28 08:41:10 UTC</createdTime>
-<generatorID>0B7ACB01-4CC1-B3AF-85A2-F25A3335521A</generatorID>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<referedAttribute>41B92A95-0393-CAF9-FD98-22421068BE5A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>75</dataTypeSize>
-<ownDataTypeParameters>75,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cont_no1" id="513282DC-7B68-0E47-E8DA-16BD63E9FC80">
+<Attribute name="waste_type_id" id="71B97E82-1288-390E-CF6B-DDB3C48F8E3E">
 <createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:13:49 UTC</createdTime>
-<generatorID>3709315F-F411-BF01-9CF0-3D095DEE354A</generatorID>
+<createdTime>2023-04-29 08:35:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
-<referedAttribute>ADAF44FD-647B-C401-79DB-7F1773A9DD15</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>8</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="waste_type" id="989ED4C1-8B5A-4650-D6E3-9064A2D85571">
+<Attribute name="cw_collection_cost" id="7C445610-87D4-C51E-2F30-ECCC57A0EB9E">
 <createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:13:49 UTC</createdTime>
-<generatorID>3709315F-F411-BF01-9CF0-3D095DEE354A</generatorID>
+<createdTime>2023-04-29 08:36:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[contarct waste collection cost]]></commentInRDBMS>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
-<referedAttribute>250F4B75-FBF0-7272-B6E5-0FF641857C90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cw_interval" id="21506ACD-D389-71E2-8154-A5AC3D3A1383">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:37:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contract waste interval]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cont_no1" id="274BFBC1-17A9-AC1B-B73D-1F6A4E4375FE">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:46:10 UTC</createdTime>
+<generatorID>96288FAC-036F-36AF-A28E-AEA93CAFF7D3</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>F44F5E27-33C0-AEFD-A7B5-995755628DF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waste_type_id1" id="0E3C253E-0D98-1C62-E461-0CED26F02A07">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 09:07:54 UTC</createdTime>
+<generatorID>D8096D0A-8A5D-8582-22D4-5BDF312E7688</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>F36BC4C9-5AF3-DD69-3205-9A8B2291B0E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="D8B29540-2E20-33CC-4C10-9044B0361CC9" name="CONTRACT PK">
-<createdBy>NyanCarrot</createdBy>
-<createdTime>2023-04-28 08:40:12 UTC</createdTime>
+<identifier id="508A1418-78BC-9E88-7C92-D0C0687F843C" name="CONTRACT_WASTE_COLLECTION PK">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:35:28 UTC</createdTime>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>F44F5E27-33C0-AEFD-A7B5-995755628DF3</attributeRef>
+<attributeRef>A5BD445C-333F-5EF6-91DC-D125ABB8B3D4</attributeRef>
+<attributeRef>71B97E82-1288-390E-CF6B-DDB3C48F8E3E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
