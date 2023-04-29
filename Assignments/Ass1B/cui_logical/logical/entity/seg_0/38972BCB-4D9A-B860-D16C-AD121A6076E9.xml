@@ -32,6 +32,7 @@
 <Attribute name="auth_name" id="220D47E1-A1F8-9103-6F1E-31A562D15078">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-04-28 08:36:46 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority name]]></commentInRDBMS>
 <generatorID>8FDD9B10-5DA6-99C0-27DE-24AE3C5E270D</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>

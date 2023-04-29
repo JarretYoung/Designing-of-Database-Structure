@@ -100,6 +100,20 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="auth_type_id" id="1246C801-22C0-B695-1DBE-C3D4C1DCEE9C">
+<createdBy>Muhd Lai Razi</createdBy>
+<createdTime>2023-04-29 09:57:57 UTC</createdTime>
+<generatorID>B086FAB3-4262-4E72-9A2F-24161C067473</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>8F5C79B0-23BE-6782-91DE-13FCB8642B32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2BE03A12-AE46-A2A9-FC58-D7E12C79932D" name="AUTHORITY PK">

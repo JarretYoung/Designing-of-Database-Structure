@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="STREET_ROAD_TYPE" directorySegmentName="seg_0" id="D28DFB12-88F7-4572-F254-DCDC6E335D37">
+<createdBy>Muhd Lai Razi</createdBy>
+<createdTime>2023-04-29 10:11:48 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<sourcePk>571A1B2B-C905-D184-817F-68226BFB8913</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>has road type</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>38972BCB-4D9A-B860-D16C-AD121A6076E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>13AC9A7D-D2A7-AB60-9118-06FC65CE2818</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
