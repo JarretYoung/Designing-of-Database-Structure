@@ -32,6 +32,7 @@
 <Attribute name="cont_start_date" id="5F1510CA-69D8-1B30-AF47-A1F46DDF00CB">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-04-28 08:39:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract start date]]></commentInRDBMS>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
@@ -57,6 +58,7 @@
 <Attribute name="auth_name" id="69FCC6EC-76A1-27C9-9362-D9A4EE977848">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-04-28 08:41:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority name]]></commentInRDBMS>
 <generatorID>0B7ACB01-4CC1-B3AF-85A2-F25A3335521A</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
@@ -67,7 +69,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>75</dataTypeSize>
-<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

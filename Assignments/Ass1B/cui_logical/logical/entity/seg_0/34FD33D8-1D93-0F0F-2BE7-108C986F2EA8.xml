@@ -18,7 +18,7 @@
 <Attribute name="bin_rfid" id="1B423666-E660-C5CE-7A07-14FE8DE585B1">
 <createdBy>wongenxin</createdBy>
 <createdTime>2023-04-29 08:00:44 UTC</createdTime>
-<commentInRDBMS><![CDATA[bin frid]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[bin rfid]]></commentInRDBMS>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
@@ -29,10 +29,10 @@
 <dataTypePrecision>16</dataTypePrecision>
 <ownDataTypeParameters>,16,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="bin_supple_date" id="9EF0D42E-4F5A-3179-2794-4FE7CAA7537D">
+<Attribute name="bin_supply_date" id="9EF0D42E-4F5A-3179-2794-4FE7CAA7537D">
 <createdBy>wongenxin</createdBy>
 <createdTime>2023-04-29 08:01:58 UTC</createdTime>
-<commentInRDBMS><![CDATA[Bin supple date]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Bin supply date]]></commentInRDBMS>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
@@ -63,25 +63,6 @@
 <valueDef value="ST" description="Stolen"/>
 </listOfValues>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="overweight" id="60FAFF59-9AC4-622F-AD9B-45C977019BAF">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 08:04:23 UTC</createdTime>
-<commentInRDBMS><![CDATA[overweight, Y-Yes, N-No]]></commentInRDBMS>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<constraintName>chk_overweight</constraintName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>1 CHAR</dataTypeSize>
-<listOfValues>
-<valueDef value="N" description="No"/>
-<valueDef value="Y" description="Yes"/>
-</listOfValues>
-<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="prop_street_num" id="82C8ECA9-DD83-739D-C3E6-7A54ADF29A16">
 <createdBy>wongenxin</createdBy>
@@ -129,11 +110,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>75</dataTypeSize>
-<ownDataTypeParameters>75,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="waste_type_id" id="C163D7CC-5C4B-EA4F-872E-03BCF70AFDFF">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-05-02 08:05:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
 <generatorID>59DB5A73-6BDD-F13D-A5D2-104713C4EF98</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
@@ -146,7 +128,7 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="bin_type_size" id="38A59A81-C0AC-75CA-FEE5-03795DC9A28C">
+<Attribute name="bt_size" id="38A59A81-C0AC-75CA-FEE5-03795DC9A28C">
 <createdBy>wongenxin</createdBy>
 <createdTime>2023-04-29 08:29:11 UTC</createdTime>
 <commentInRDBMS><![CDATA[Bin type size]]></commentInRDBMS>

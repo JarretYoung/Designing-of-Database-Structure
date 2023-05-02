@@ -18,7 +18,7 @@
 <Attribute name="bin_rfid" id="0ABEE5A2-5A17-AACB-7374-DA9A5E8959F1">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-05-02 02:09:45 UTC</createdTime>
-<commentInRDBMS><![CDATA[Bin RFID]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[bin frid]]></commentInRDBMS>
 <generatorID>EF62D266-4FE4-8EB8-6EAB-7BF8466510C0</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
@@ -34,7 +34,7 @@
 <Attribute name="ct_collect_date" id="C23B8F49-55BF-E900-EB91-9D05BDF974A3">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-05-02 02:11:42 UTC</createdTime>
-<commentInRDBMS><![CDATA[collection trip collection date]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Date that the waste was collected (waste collection date)]]></commentInRDBMS>
 <generatorID>DBEBE088-38FC-8E11-CEF8-CA927338B5AC</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
@@ -88,12 +88,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="waste_type_id" id="89805EB9-4CC9-A319-CC6C-2268F7426465">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-05-02 07:50:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
 <generatorID>DBEBE088-38FC-8E11-CEF8-CA927338B5AC</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
@@ -104,7 +104,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
