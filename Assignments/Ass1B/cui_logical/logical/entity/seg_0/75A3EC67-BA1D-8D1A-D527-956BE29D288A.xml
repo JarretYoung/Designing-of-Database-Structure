@@ -84,6 +84,20 @@
 <dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="driver_contact_no" id="7D16D47A-4058-64E8-28CF-0676F8160F6A">
+<createdBy>Muhd Lai Razi</createdBy>
+<createdTime>2023-05-02 04:27:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver's contact number]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="34A1ACBE-D358-7845-7BD8-B0509797CAEF" name="DRIVER PK">

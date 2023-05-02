@@ -43,7 +43,7 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cw_collection_cost" id="7C445610-87D4-C51E-2F30-ECCC57A0EB9E">
+<Attribute name="cwc_cost" id="7C445610-87D4-C51E-2F30-ECCC57A0EB9E">
 <createdBy>wongenxin</createdBy>
 <createdTime>2023-04-29 08:36:38 UTC</createdTime>
 <commentInRDBMS><![CDATA[contarct waste collection cost]]></commentInRDBMS>
@@ -57,10 +57,10 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cw_interval" id="21506ACD-D389-71E2-8154-A5AC3D3A1383">
+<Attribute name="cwc_frequency" id="21506ACD-D389-71E2-8154-A5AC3D3A1383">
 <createdBy>wongenxin</createdBy>
 <createdTime>2023-04-29 08:37:27 UTC</createdTime>
-<commentInRDBMS><![CDATA[Contract waste interval]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Contract waste collection frequency]]></commentInRDBMS>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
@@ -70,17 +70,18 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
+<dataTypeSize>1</dataTypeSize>
 <listOfValues>
 <valueDef value="F" description="Fortnightly"/>
 <valueDef value="M" description="Monthly"/>
 <valueDef value="W" description="Weekly"/>
 </listOfValues>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cont_no1" id="274BFBC1-17A9-AC1B-B73D-1F6A4E4375FE">
 <createdBy>wongenxin</createdBy>
 <createdTime>2023-04-29 08:46:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
 <generatorID>96288FAC-036F-36AF-A28E-AEA93CAFF7D3</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
@@ -96,6 +97,7 @@
 <Attribute name="waste_type_id1" id="0E3C253E-0D98-1C62-E461-0CED26F02A07">
 <createdBy>wongenxin</createdBy>
 <createdTime>2023-04-29 09:07:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
 <generatorID>D8096D0A-8A5D-8582-22D4-5BDF312E7688</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>

@@ -98,7 +98,7 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
+<dataTypeSize>1</dataTypeSize>
 <listOfValues>
 <valueDef value="B" description="Borough"/>
 <valueDef value="C" description="City"/>
@@ -106,7 +106,7 @@
 <valueDef value="S" description="Shire"/>
 <valueDef value="T" description="Town"/>
 </listOfValues>
-<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
