@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2F96AE00-DDBB-F674-1539-E1117E0A7C56" containerWithKeyObject="17437585-C8E4-B396-4386-94DD9239C548" localFKIndex="3792B80B-E093-2887-A676-490937BE4A65" name="waste_type_bin_type">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>9F06AA67-1762-1518-539D-9D9139442010</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<referredTableLongName>WASTE_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>39A291B6-8E52-B218-03EA-ACC2A83752A8</referredTableID>
+<keyObject>529410B3-EA6D-66FD-AB3E-52B14101D63C</keyObject>
+<referredKeyID>529410B3-EA6D-66FD-AB3E-52B14101D63C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>waste_type_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,132 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="77A2C7BA-4B9E-D49E-F06A-BB1FC07A6B78" name="COLLECTION_TRIP">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>074B38ED-3A63-749B-1950-9C6441BE8DD5</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ct_collect_date" id="B2CB9C6E-3DDA-BB60-09A5-750C1AF07D54">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date that the waste was collected (waste collection date)]]></commentInRDBMS>
+<generatorID>28845401-7629-447D-069F-99808B8EF076</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cont_no" id="5BEC27A7-5C3C-39C0-F73C-22643A0760BB">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<generatorID>C9B13F9C-BD57-DDDC-296A-3B334FAFD475</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A7AC9CC-5B29-8260-701C-97E30EF92DB9" referredColumn="C49291B2-0368-2FA0-7831-BA2FF7D82B54"/>
+</associations>
+</Column>
+<Column name="waste_type_id" id="223E4EF6-76B0-87FD-6632-CC3223ACC3A6">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
+<generatorID>FC8BFDD8-6E91-65B4-96A5-A692E769D978</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A7AC9CC-5B29-8260-701C-97E30EF92DB9" referredColumn="FB435BEA-70AC-44E6-2B69-CE7D8B40B2C6"/>
+</associations>
+</Column>
+<Column name="driver_no" id="14AF9910-B0B5-68F4-46CF-56B7EBAF4AF8">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver number ]]></commentInRDBMS>
+<generatorID>C9B1C207-5434-FEFA-1659-6DDAFBCB79C9</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7CE9636-33D8-3406-2787-2FD9040D948B" referredColumn="62B9F77A-78B4-798B-EDCB-2EFA17EE9A1C"/>
+</associations>
+</Column>
+<Column name="truck_vin" id="537BBF72-BFA5-9B66-BBC3-AB051544272D">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck vin]]></commentInRDBMS>
+<generatorID>2B24B72D-2436-0EE3-96A6-A7ABC0F5248A</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7CE9636-33D8-3406-2787-2FD9040D948B" referredColumn="5C488138-2F84-4481-E5C6-BA9ABC85CA70"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F66C0A59-87A6-4F7E-45FC-A9A1BBC2DFF7" name="COLLECTION_TRIP_PK">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>B02CC195-F443-1B43-2C6C-008453C981A9</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B2CB9C6E-3DDA-BB60-09A5-750C1AF07D54"/>
+<colUsage columnID="5BEC27A7-5C3C-39C0-F73C-22643A0760BB"/>
+<colUsage columnID="223E4EF6-76B0-87FD-6632-CC3223ACC3A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="61BB1C18-7D3E-97DE-9C86-A657428FF883" name="CWC_COLLECTION_TRIP">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>BF99B2BC-909C-A6A5-EDE4-6F00EA0DD42C</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BEC27A7-5C3C-39C0-F73C-22643A0760BB"/>
+<colUsage columnID="223E4EF6-76B0-87FD-6632-CC3223ACC3A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0986172B-CCA9-6D0C-D10D-73758A06A025" name="DRIVER_TRUCK_COLLECTION_TRIP">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>0CEC3183-B197-6F5C-3CAB-0E910892B1FE</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14AF9910-B0B5-68F4-46CF-56B7EBAF4AF8"/>
+<colUsage columnID="537BBF72-BFA5-9B66-BBC3-AB051544272D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

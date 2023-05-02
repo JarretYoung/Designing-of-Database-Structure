@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1330DB08-8827-B539-CD6C-5FF0D6D13EEC" name="CONTRACT">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>86DD9720-AFA1-440B-60F0-4F713AA17ECB</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cont_no" id="363D6198-DB7A-C133-9BEC-544453FAD8D8">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<generatorID>F44F5E27-33C0-AEFD-A7B5-995755628DF3</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cont_start_date" id="91DA5774-D866-A51F-13A2-68BD1557CE10">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract start date]]></commentInRDBMS>
+<generatorID>5F1510CA-69D8-1B30-AF47-A1F46DDF00CB</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cont_end_date" id="A10DC43E-59A9-F423-D6F9-94EC66B51B70">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract end date]]></commentInRDBMS>
+<generatorID>2527488D-1066-B067-0ECF-FF238FAEF229</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="auth_name" id="10266534-C2DB-9727-6118-21D901B07E63">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority name]]></commentInRDBMS>
+<generatorID>69FCC6EC-76A1-27C9-9362-D9A4EE977848</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9546B1A-C9F5-3F45-DD9D-5618BCCD54F4" referredColumn="23EEF540-43DD-A204-8997-34C28C67337A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="11FD2773-7C00-0DFB-E87F-7E91A39AF42C" name="CONTRACT_PK">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>D8B29540-2E20-33CC-4C10-9044B0361CC9</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="363D6198-DB7A-C133-9BEC-544453FAD8D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="87898C68-B70B-1305-1366-825F74D947E2" name="AUTHORITY_CONTRACT">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>0B7ACB01-4CC1-B3AF-85A2-F25A3335521A</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10266534-C2DB-9727-6118-21D901B07E63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
