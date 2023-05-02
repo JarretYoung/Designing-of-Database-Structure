@@ -18,6 +18,7 @@
 <Attribute name="cont_no" id="8EB34EE2-9584-79DE-B8C2-3B3C96D0D1F3">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-05-02 07:48:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
 <generatorID>A48C5F68-B8A0-DA3B-C7C7-17739C3AC388</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
@@ -33,6 +34,7 @@
 <Attribute name="waste_type_id" id="5C3F7A52-9EE6-0ABC-E7B9-79805C3A7893">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-05-02 07:49:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
 <generatorID>01CAAE83-1C50-0B38-9654-7D0C9686A7E3</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
