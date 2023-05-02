@@ -15,48 +15,50 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cont_no" id="ADAF44FD-647B-C401-79DB-7F1773A9DD15">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:10:47 UTC</createdTime>
-<commentInRDBMS><![CDATA[Contract number]]></commentInRDBMS>
+<Attribute name="cont_no" id="C2D199F2-684B-A9DA-6824-CA80EA453E79">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:23:01 UTC</createdTime>
+<generatorID>9D31722E-3CD1-17BF-BEBC-C6CF87FB8E01</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
+<referedAttribute>F44F5E27-33C0-AEFD-A7B5-995755628DF3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>8</dataTypeSize>
-<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="waste_type" id="250F4B75-FBF0-7272-B6E5-0FF641857C90">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:11:15 UTC</createdTime>
-<commentInRDBMS><![CDATA[waste type]]></commentInRDBMS>
+<Attribute name="waste_type" id="2AFDA3A7-DACE-795C-50E9-02406AA784AD">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:25:27 UTC</createdTime>
+<generatorID>2A716006-85BE-6C84-B0B0-E29E873265C9</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
+<referedAttribute>FC0409D2-3F1C-A513-692B-28920D1AE1BF</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="bin_type_size" id="4E12346F-4A3F-3144-0FFB-B863EAB25620">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:11:49 UTC</createdTime>
-<commentInRDBMS><![CDATA[BIn type size]]></commentInRDBMS>
+<Attribute name="bin_type_size" id="2B2C190B-AA95-07BD-F31F-6F2286F67B34">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:25:27 UTC</createdTime>
+<generatorID>2A716006-85BE-6C84-B0B0-E29E873265C9</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>40DFF54A-7E14-E321-A692-A8ABA4893C30</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bin_type_supple_cost" id="379C4E3B-18A4-DDAB-D9C3-FC4B936694A5">
 <createdBy>wongenxin</createdBy>
@@ -72,34 +74,19 @@
 <dataTypePrecision>3</dataTypePrecision>
 <ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="bin_rfid" id="63C2E693-9C9B-7480-EB15-DECB7256EF71">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:13:02 UTC</createdTime>
-<commentInRDBMS><![CDATA[Bin rfid]]></commentInRDBMS>
+<Attribute name="bin_rfid" id="360156DF-A9A2-7F8F-A114-F9BE1DD01000">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:29:18 UTC</createdTime>
+<generatorID>FB04804B-BDA9-E685-D208-A2DD456DAA02</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1B423666-E660-C5CE-7A07-14FE8DE585B1</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>16</dataTypeSize>
-<ownDataTypeParameters>16,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cont_no1" id="B66056AC-CB3E-AB08-F34E-6B5F3285DAA3">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:14:27 UTC</createdTime>
-<generatorID>3709315F-F411-BF01-9CF0-3D095DEE354A</generatorID>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<referedAttribute>F44F5E27-33C0-AEFD-A7B5-995755628DF3</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -113,8 +100,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>ADAF44FD-647B-C401-79DB-7F1773A9DD15</attributeRef>
-<attributeRef>250F4B75-FBF0-7272-B6E5-0FF641857C90</attributeRef>
+<attributeRef>2AFDA3A7-DACE-795C-50E9-02406AA784AD</attributeRef>
+<attributeRef>C2D199F2-684B-A9DA-6824-CA80EA453E79</attributeRef>
+<attributeRef>2B2C190B-AA95-07BD-F31F-6F2286F67B34</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

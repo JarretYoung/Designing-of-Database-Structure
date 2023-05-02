@@ -69,36 +69,6 @@
 <dataTypeSize>75</dataTypeSize>
 <ownDataTypeParameters>75,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cont_no1" id="513282DC-7B68-0E47-E8DA-16BD63E9FC80">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:13:49 UTC</createdTime>
-<generatorID>3709315F-F411-BF01-9CF0-3D095DEE354A</generatorID>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<referedAttribute>ADAF44FD-647B-C401-79DB-7F1773A9DD15</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>8</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="waste_type" id="989ED4C1-8B5A-4650-D6E3-9064A2D85571">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:13:49 UTC</createdTime>
-<generatorID>3709315F-F411-BF01-9CF0-3D095DEE354A</generatorID>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<referedAttribute>250F4B75-FBF0-7272-B6E5-0FF641857C90</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="D8B29540-2E20-33CC-4C10-9044B0361CC9" name="CONTRACT PK">

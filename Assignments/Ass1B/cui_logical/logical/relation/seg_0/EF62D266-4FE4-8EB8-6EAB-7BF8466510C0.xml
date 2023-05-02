@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BIN_WASTE_COLLECTION_WEIGHT" directorySegmentName="seg_0" id="EF62D266-4FE4-8EB8-6EAB-7BF8466510C0">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:09:45 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<sourcePk>A67E4A20-D43F-43E7-E0F4-FDE897A49731</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>34FD33D8-1D93-0F0F-2BE7-108C986F2EA8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D1325BA5-9E7C-A1A1-1770-B1B159F79827</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

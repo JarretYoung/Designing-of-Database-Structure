@@ -42,10 +42,10 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="bin_replace_id" id="C4709ECD-2F0D-3E4E-413A-FBB6AC73355E">
+<Attribute name="bin_replace_reason" id="C4709ECD-2F0D-3E4E-413A-FBB6AC73355E">
 <createdBy>wongenxin</createdBy>
 <createdTime>2023-04-29 08:03:32 UTC</createdTime>
-<commentInRDBMS><![CDATA[Bin replace id]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Bin replace reason]]></commentInRDBMS>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
@@ -53,9 +53,9 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>16</dataTypePrecision>
-<ownDataTypeParameters>,16,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="overweight" id="60FAFF59-9AC4-622F-AD9B-45C977019BAF">
 <createdBy>wongenxin</createdBy>
@@ -119,7 +119,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="street_id" id="78A9B887-935F-2861-88D3-5D043E05D07E">
 <createdBy>wongenxin</createdBy>
@@ -134,7 +134,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="auth_name" id="C1804314-F7A3-6BD8-7367-0E871FCE4ABA">
 <createdBy>wongenxin</createdBy>
@@ -149,7 +149,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>75</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -163,8 +163,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>1B423666-E660-C5CE-7A07-14FE8DE585B1</attributeRef>
-<attributeRef>49FB2081-6B95-CCF7-D4D5-6A53F718AC5E</attributeRef>
-<attributeRef>38A59A81-C0AC-75CA-FEE5-03795DC9A28C</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

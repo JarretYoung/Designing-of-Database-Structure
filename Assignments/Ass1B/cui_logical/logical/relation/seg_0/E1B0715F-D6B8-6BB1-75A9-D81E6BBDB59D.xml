@@ -8,7 +8,8 @@
 </engineerTo>
 <sourcePk>9E1DC0D3-B87C-10A1-0F34-20F8E4CA144A</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>OWNS</nameOnSource>
+<nameOnSource>owns</nameOnSource>
+<nameOnTarget> </nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>*</sourceCardinality>

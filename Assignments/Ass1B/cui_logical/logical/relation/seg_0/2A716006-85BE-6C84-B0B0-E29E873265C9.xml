@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DRIVER_COLLECTION_TRIP" directorySegmentName="seg_0" id="9149AF26-A0E8-0AC6-800C-F5C81C4EFF04">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BIN_TYPE_CONTRACT_BIN" directorySegmentName="seg_0" id="2A716006-85BE-6C84-B0B0-E29E873265C9">
 <createdBy>NyanCarrot</createdBy>
-<createdTime>2023-04-29 14:18:35 UTC</createdTime>
+<createdTime>2023-05-02 02:25:27 UTC</createdTime>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
-<sourcePk>34A1ACBE-D358-7845-7BD8-B0509797CAEF</sourcePk>
+<sourcePk>0A282216-29B8-4047-2D01-2793B386AC55</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>makes</nameOnSource>
+<nameOnSource>specifies</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>75A3EC67-BA1D-8D1A-D527-956BE29D288A</sourceEntity>
+<sourceEntity>8630FEE1-CE30-148F-ABAB-91699A756BB3</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>074B38ED-3A63-749B-1950-9C6441BE8DD5</targetEntity>
+<targetEntity>419DA418-1529-4092-1C3C-18522F51F296</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
