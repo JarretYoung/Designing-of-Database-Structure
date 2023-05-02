@@ -1,14 +1,14 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contract_contractwastecollection" directorySegmentName="seg_0" id="96288FAC-036F-36AF-A28E-AEA93CAFF7D3">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 08:46:10 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CONTRACT_CWC" directorySegmentName="seg_0" id="A48C5F68-B8A0-DA3B-C7C7-17739C3AC388">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 07:48:40 UTC</createdTime>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
 <sourcePk>D8B29540-2E20-33CC-4C10-9044B0361CC9</sourcePk>
-<identifying>false</identifying>
-<nameOnSource>collects</nameOnSource>
+<identifying>true</identifying>
+<nameOnSource>specifies</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>

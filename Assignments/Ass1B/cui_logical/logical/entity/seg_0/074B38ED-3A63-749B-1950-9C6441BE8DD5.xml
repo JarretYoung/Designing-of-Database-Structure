@@ -28,30 +28,30 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cont_no" id="996CD1C0-A5C2-6AEA-5C72-25E8BFBB006C">
+<Attribute name="cont_no" id="C9B13F9C-BD57-DDDC-296A-3B334FAFD475">
 <createdBy>NyanCarrot</createdBy>
-<createdTime>2023-05-02 02:14:14 UTC</createdTime>
+<createdTime>2023-05-02 07:49:08 UTC</createdTime>
 <generatorID>BF99B2BC-909C-A6A5-EDE4-6F00EA0DD42C</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
-<referedAttribute>A5BD445C-333F-5EF6-91DC-D125ABB8B3D4</referedAttribute>
+<referedAttribute>8EB34EE2-9584-79DE-B8C2-3B3C96D0D1F3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="waste_type_id" id="16B29D8E-7E25-806F-4827-8F7C19FB7D58">
+<Attribute name="waste_type_id" id="FC8BFDD8-6E91-65B4-96A5-A692E769D978">
 <createdBy>NyanCarrot</createdBy>
-<createdTime>2023-05-02 02:14:14 UTC</createdTime>
+<createdTime>2023-05-02 07:50:00 UTC</createdTime>
 <generatorID>BF99B2BC-909C-A6A5-EDE4-6F00EA0DD42C</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
-<referedAttribute>71B97E82-1288-390E-CF6B-DDB3C48F8E3E</referedAttribute>
+<referedAttribute>5C3F7A52-9EE6-0ABC-E7B9-79805C3A7893</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -71,7 +71,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>6</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="truck_vin" id="2B24B72D-2436-0EE3-96A6-A7ABC0F5248A">
 <createdBy>NyanCarrot</createdBy>
@@ -86,7 +86,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>17</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>17,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -100,8 +100,8 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>28845401-7629-447D-069F-99808B8EF076</attributeRef>
-<attributeRef>996CD1C0-A5C2-6AEA-5C72-25E8BFBB006C</attributeRef>
-<attributeRef>16B29D8E-7E25-806F-4827-8F7C19FB7D58</attributeRef>
+<attributeRef>C9B13F9C-BD57-DDDC-296A-3B334FAFD475</attributeRef>
+<attributeRef>FC8BFDD8-6E91-65B4-96A5-A692E769D978</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="waste_type_contractwastecollection" directorySegmentName="seg_0" id="D8096D0A-8A5D-8582-22D4-5BDF312E7688">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:07:54 UTC</createdTime>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="WASTE_TYPE_CWC" directorySegmentName="seg_0" id="01CAAE83-1C50-0B38-9654-7D0C9686A7E3">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 07:49:29 UTC</createdTime>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
 <sourcePk>E533E546-F407-6253-AC73-8C6185BF81B5</sourcePk>
-<identifying>false</identifying>
-<nameOnSource>has</nameOnSource>
+<identifying>true</identifying>
+<nameOnSource>describes</nameOnSource>
 <nameOnTarget> </nameOnTarget>
-<optionalSource>true</optionalSource>
+<optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>FD1C7FBD-DFE7-ADD5-CEA9-4C3ED642C26B</sourceEntity>

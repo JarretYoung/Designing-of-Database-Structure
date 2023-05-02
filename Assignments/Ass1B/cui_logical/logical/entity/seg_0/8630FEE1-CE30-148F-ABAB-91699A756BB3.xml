@@ -15,38 +15,10 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="waste_type" id="FC0409D2-3F1C-A513-692B-28920D1AE1BF">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 08:08:14 UTC</createdTime>
-<commentInRDBMS><![CDATA[Waste type]]></commentInRDBMS>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>15,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="bin_type_size" id="40DFF54A-7E14-E321-A692-A8ABA4893C30">
 <createdBy>wongenxin</createdBy>
 <createdTime>2023-04-29 08:11:21 UTC</createdTime>
 <commentInRDBMS><![CDATA[Bin type size]]></commentInRDBMS>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="bin_type_supple_cost" id="0DB28A12-3EE5-81DD-DAB4-ADC716021481">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 08:13:03 UTC</createdTime>
-<commentInRDBMS><![CDATA[Bin Type supply cost]]></commentInRDBMS>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
@@ -70,7 +42,21 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bin_type_supple_cost" id="0DB28A12-3EE5-81DD-DAB4-ADC716021481">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:13:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bin Type supply cost]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -83,8 +69,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FC0409D2-3F1C-A513-692B-28920D1AE1BF</attributeRef>
 <attributeRef>40DFF54A-7E14-E321-A692-A8ABA4893C30</attributeRef>
+<attributeRef>1AA228DC-61D5-A81B-97EB-B8C4620F4068</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

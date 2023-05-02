@@ -28,22 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="waste_type" id="2AFDA3A7-DACE-795C-50E9-02406AA784AD">
-<createdBy>NyanCarrot</createdBy>
-<createdTime>2023-05-02 02:25:27 UTC</createdTime>
-<generatorID>2A716006-85BE-6C84-B0B0-E29E873265C9</generatorID>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<referedAttribute>FC0409D2-3F1C-A513-692B-28920D1AE1BF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>15</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bin_type_size" id="2B2C190B-AA95-07BD-F31F-6F2286F67B34">
 <createdBy>NyanCarrot</createdBy>
@@ -58,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bin_type_supple_cost" id="379C4E3B-18A4-DDAB-D9C3-FC4B936694A5">
 <createdBy>wongenxin</createdBy>
@@ -87,6 +72,51 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waste_type_id" id="494E431D-39F5-635F-BB1A-493E538DA0AD">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 08:05:47 UTC</createdTime>
+<generatorID>2A716006-85BE-6C84-B0B0-E29E873265C9</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>1AA228DC-61D5-A81B-97EB-B8C4620F4068</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bin_type_size1" id="FFAD8F4B-0327-6252-8673-A77955F10094">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 08:05:47 UTC</createdTime>
+<generatorID>FB04804B-BDA9-E685-D208-A2DD456DAA02</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>38A59A81-C0AC-75CA-FEE5-03795DC9A28C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waste_type_id1" id="6ACD6F48-3F2A-E48A-27CE-C6CB02DFFF02">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 08:05:47 UTC</createdTime>
+<generatorID>FB04804B-BDA9-E685-D208-A2DD456DAA02</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>C163D7CC-5C4B-EA4F-872E-03BCF70AFDFF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -100,9 +130,9 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>2AFDA3A7-DACE-795C-50E9-02406AA784AD</attributeRef>
-<attributeRef>C2D199F2-684B-A9DA-6824-CA80EA453E79</attributeRef>
 <attributeRef>2B2C190B-AA95-07BD-F31F-6F2286F67B34</attributeRef>
+<attributeRef>494E431D-39F5-635F-BB1A-493E538DA0AD</attributeRef>
+<attributeRef>C2D199F2-684B-A9DA-6824-CA80EA453E79</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

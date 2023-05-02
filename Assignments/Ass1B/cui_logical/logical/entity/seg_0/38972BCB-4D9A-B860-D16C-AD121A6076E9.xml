@@ -88,7 +88,6 @@
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <listOfValues>
-<valueDef value="" description=""/>
 <valueDef value="A" description="Asphalt"/>
 <valueDef value="C" description="Concrete"/>
 <valueDef value="U" description="Unsealed"/>

@@ -15,33 +15,35 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cont_no" id="A5BD445C-333F-5EF6-91DC-D125ABB8B3D4">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 08:34:47 UTC</createdTime>
-<commentInRDBMS><![CDATA[Contract number]]></commentInRDBMS>
+<Attribute name="cont_no" id="8EB34EE2-9584-79DE-B8C2-3B3C96D0D1F3">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 07:48:40 UTC</createdTime>
+<generatorID>A48C5F68-B8A0-DA3B-C7C7-17739C3AC388</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
+<referedAttribute>F44F5E27-33C0-AEFD-A7B5-995755628DF3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="waste_type_id" id="71B97E82-1288-390E-CF6B-DDB3C48F8E3E">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 08:35:55 UTC</createdTime>
-<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
+<Attribute name="waste_type_id" id="5C3F7A52-9EE6-0ABC-E7B9-79805C3A7893">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 07:49:29 UTC</createdTime>
+<generatorID>01CAAE83-1C50-0B38-9654-7D0C9686A7E3</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
+<referedAttribute>F36BC4C9-5AF3-DD69-3205-9A8B2291B0E2</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cwc_cost" id="7C445610-87D4-C51E-2F30-ECCC57A0EB9E">
 <createdBy>wongenxin</createdBy>
@@ -66,7 +68,6 @@
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
 <constraintName>wate_collection_intervals_chk</constraintName>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -77,38 +78,6 @@
 <valueDef value="W" description="Weekly"/>
 </listOfValues>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="cont_no1" id="274BFBC1-17A9-AC1B-B73D-1F6A4E4375FE">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 08:46:10 UTC</createdTime>
-<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
-<generatorID>96288FAC-036F-36AF-A28E-AEA93CAFF7D3</generatorID>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<referedAttribute>F44F5E27-33C0-AEFD-A7B5-995755628DF3</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>5,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="waste_type_id1" id="0E3C253E-0D98-1C62-E461-0CED26F02A07">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 09:07:54 UTC</createdTime>
-<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
-<generatorID>D8096D0A-8A5D-8582-22D4-5BDF312E7688</generatorID>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<referedAttribute>F36BC4C9-5AF3-DD69-3205-9A8B2291B0E2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
@@ -121,8 +90,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>A5BD445C-333F-5EF6-91DC-D125ABB8B3D4</attributeRef>
-<attributeRef>71B97E82-1288-390E-CF6B-DDB3C48F8E3E</attributeRef>
+<attributeRef>8EB34EE2-9584-79DE-B8C2-3B3C96D0D1F3</attributeRef>
+<attributeRef>5C3F7A52-9EE6-0ABC-E7B9-79805C3A7893</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
