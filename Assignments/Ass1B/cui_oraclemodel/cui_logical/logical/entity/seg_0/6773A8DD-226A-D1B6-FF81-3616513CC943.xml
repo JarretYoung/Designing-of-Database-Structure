@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6773A8DD-226A-D1B6-FF81-3616513CC943" name="DRIVER_TRUCK">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 01:53:14 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="driver_no" id="4A0C3258-7AC9-CA29-F2BC-8472A2B2F4B1">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 01:55:26 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver number ]]></commentInRDBMS>
+<generatorID>1F93E81C-3B39-2564-75A1-7EAF26A1C908</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>0F5EAAE4-DE07-1270-F140-54F3AAEDE67E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_vin" id="60F95A88-84FF-56A6-3CD3-C8D82DAF3051">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 01:56:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck vin]]></commentInRDBMS>
+<generatorID>4D80C01F-1B5A-87D4-76FA-17B5467F0E14</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>61645AF2-85CD-4CC3-DE29-9E95DD0BD0F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_approve_date" id="2440E14B-982A-F759-4182-1A41ECED1528">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 01:53:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[Driver's assigned truck approved date]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6CB31B26-8A56-206A-E074-3781088FB785" name="DRIVER_TRUCK PK">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 01:57:12 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A0C3258-7AC9-CA29-F2BC-8472A2B2F4B1</attributeRef>
+<attributeRef>60F95A88-84FF-56A6-3CD3-C8D82DAF3051</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

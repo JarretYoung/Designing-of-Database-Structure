@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C6EC708-C5DC-2D2E-F348-1CAA7BC1FECA" name="AUTHORITY">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:29:59 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="auth_name" id="41B92A95-0393-CAF9-FD98-22421068BE5A">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:30:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority name]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_chief_givname" id="20555F22-E62A-61B8-A222-6E278A5F6965">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:30:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority chief's given name]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_chief_famname" id="9AF1E81C-59CE-3BC5-2C1B-6B23690B7DEB">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:32:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[authoroity chief's familiy name]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_phone" id="B8A05989-6AE5-A81F-DB84-D7CFDDFA0F83">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:33:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority phone number]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_total_area" id="3F5F01C8-0349-1EDD-CFAB-D56D223793AC">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:34:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority total area governed]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,11,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_type" id="3BADB2E4-8FC4-15A3-5E0B-13F09EE808CB">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:35:18 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority type]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<constraintName>Authority_type_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="B" description="Borough"/>
+<valueDef value="C" description="City"/>
+<valueDef value="D" description="Distinc Council"/>
+<valueDef value="S" description="Shire"/>
+<valueDef value="T" description="Town"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BE03A12-AE46-A2A9-FC58-D7E12C79932D" name="AUTHORITY PK">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:30:47 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>41B92A95-0393-CAF9-FD98-22421068BE5A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

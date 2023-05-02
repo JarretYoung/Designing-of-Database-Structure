@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="074B38ED-3A63-749B-1950-9C6441BE8DD5" name="COLLECTION_TRIP">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-29 14:12:03 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ct_collect_date" id="28845401-7629-447D-069F-99808B8EF076">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-29 14:12:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date that the waste was collected (waste collection date)]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cont_no" id="C9B13F9C-BD57-DDDC-296A-3B334FAFD475">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 07:49:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<generatorID>BF99B2BC-909C-A6A5-EDE4-6F00EA0DD42C</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>8EB34EE2-9584-79DE-B8C2-3B3C96D0D1F3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waste_type_id" id="FC8BFDD8-6E91-65B4-96A5-A692E769D978">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 07:50:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
+<generatorID>BF99B2BC-909C-A6A5-EDE4-6F00EA0DD42C</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>5C3F7A52-9EE6-0ABC-E7B9-79805C3A7893</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="driver_no" id="C9B1C207-5434-FEFA-1659-6DDAFBCB79C9">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:12:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[driver number ]]></commentInRDBMS>
+<generatorID>0CEC3183-B197-6F5C-3CAB-0E910892B1FE</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>4A0C3258-7AC9-CA29-F2BC-8472A2B2F4B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="truck_vin" id="2B24B72D-2436-0EE3-96A6-A7ABC0F5248A">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:12:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck vin]]></commentInRDBMS>
+<generatorID>0CEC3183-B197-6F5C-3CAB-0E910892B1FE</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>60F95A88-84FF-56A6-3CD3-C8D82DAF3051</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>17</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B02CC195-F443-1B43-2C6C-008453C981A9" name="COLLECTION_TRIP PK">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-29 14:12:34 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28845401-7629-447D-069F-99808B8EF076</attributeRef>
+<attributeRef>C9B13F9C-BD57-DDDC-296A-3B334FAFD475</attributeRef>
+<attributeRef>FC8BFDD8-6E91-65B4-96A5-A692E769D978</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

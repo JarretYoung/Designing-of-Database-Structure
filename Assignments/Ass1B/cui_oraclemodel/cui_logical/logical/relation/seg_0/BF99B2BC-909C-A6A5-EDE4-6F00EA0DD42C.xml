@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CWC_COLLECTION_TRIP" directorySegmentName="seg_0" id="BF99B2BC-909C-A6A5-EDE4-6F00EA0DD42C">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:14:14 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<sourcePk>508A1418-78BC-9E88-7C92-D0C0687F843C</sourcePk>
+<identifying>true</identifying>
+<nameOnSource> </nameOnSource>
+<nameOnTarget>contains</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4AE46290-81CA-73C7-56DE-F1FA840A2382</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>074B38ED-3A63-749B-1950-9C6441BE8DD5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

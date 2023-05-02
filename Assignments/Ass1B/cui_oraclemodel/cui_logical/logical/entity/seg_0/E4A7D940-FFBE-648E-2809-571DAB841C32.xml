@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4A7D940-FFBE-648E-2809-571DAB841C32" name="PROPERTY">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:16:08 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prop_street_num" id="D73DAAFD-710B-2A19-929F-24C58AF47D51">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:16:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[property street number ]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_id" id="62F47D14-49CF-1B9A-075E-EB5D02EA682A">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:28:53 UTC</createdTime>
+<generatorID>85951DE8-0D60-4FAF-139B-D1D3A944F771</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>7A37A6AB-0740-C810-E073-CEE89B19B7D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_name" id="BA97D7E0-D914-F1D4-224E-070F97077E4A">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:37:23 UTC</createdTime>
+<generatorID>85951DE8-0D60-4FAF-139B-D1D3A944F771</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>220D47E1-A1F8-9103-6F1E-31A562D15078</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>75,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A86D9CE9-43EF-4E87-F422-32BA02C7FF97" name="PROPERTY PK">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:16:49 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D73DAAFD-710B-2A19-929F-24C58AF47D51</attributeRef>
+<attributeRef>62F47D14-49CF-1B9A-075E-EB5D02EA682A</attributeRef>
+<attributeRef>BA97D7E0-D914-F1D4-224E-070F97077E4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

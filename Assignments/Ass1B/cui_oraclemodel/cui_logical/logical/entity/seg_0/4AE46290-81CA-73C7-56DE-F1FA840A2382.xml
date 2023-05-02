@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AE46290-81CA-73C7-56DE-F1FA840A2382" name="CONTRACT_WASTE_COLLECTION">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:34:30 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cont_no" id="8EB34EE2-9584-79DE-B8C2-3B3C96D0D1F3">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 07:48:40 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<generatorID>A48C5F68-B8A0-DA3B-C7C7-17739C3AC388</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>F44F5E27-33C0-AEFD-A7B5-995755628DF3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waste_type_id" id="5C3F7A52-9EE6-0ABC-E7B9-79805C3A7893">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 07:49:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
+<generatorID>01CAAE83-1C50-0B38-9654-7D0C9686A7E3</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>F36BC4C9-5AF3-DD69-3205-9A8B2291B0E2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cwc_cost" id="7C445610-87D4-C51E-2F30-ECCC57A0EB9E">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:36:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[contarct waste collection cost]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cwc_frequency" id="21506ACD-D389-71E2-8154-A5AC3D3A1383">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:37:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Contract waste collection frequency]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<constraintName>wate_collection_intervals_chk</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Fortnightly"/>
+<valueDef value="M" description="Monthly"/>
+<valueDef value="W" description="Weekly"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="508A1418-78BC-9E88-7C92-D0C0687F843C" name="CONTRACT_WASTE_COLLECTION PK">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:35:28 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8EB34EE2-9584-79DE-B8C2-3B3C96D0D1F3</attributeRef>
+<attributeRef>5C3F7A52-9EE6-0ABC-E7B9-79805C3A7893</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

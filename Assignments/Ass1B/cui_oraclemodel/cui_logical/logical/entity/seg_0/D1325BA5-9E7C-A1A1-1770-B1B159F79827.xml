@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D1325BA5-9E7C-A1A1-1770-B1B159F79827" name="WASTE_COLLECTION_WEIGHT">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:07:59 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bin_rfid" id="0ABEE5A2-5A17-AACB-7374-DA9A5E8959F1">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:09:45 UTC</createdTime>
+<commentInRDBMS><![CDATA[bin frid]]></commentInRDBMS>
+<generatorID>EF62D266-4FE4-8EB8-6EAB-7BF8466510C0</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>1B423666-E660-C5CE-7A07-14FE8DE585B1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ct_collect_date" id="C23B8F49-55BF-E900-EB91-9D05BDF974A3">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:11:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date that the waste was collected (waste collection date)]]></commentInRDBMS>
+<generatorID>DBEBE088-38FC-8E11-CEF8-CA927338B5AC</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>28845401-7629-447D-069F-99808B8EF076</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wcw_weight" id="8F6E7E33-4079-B300-92ED-11C5E8BE1E64">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:08:13 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste collection weight]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wcw_overweight" id="74FCB555-90ED-0D12-5F3B-FD4C1DE322A3">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:09:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste overweight condition (Y/N)]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cont_no" id="36A1E305-9E17-BFC7-6094-A05B7B22939B">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 07:49:08 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<generatorID>DBEBE088-38FC-8E11-CEF8-CA927338B5AC</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>C9B13F9C-BD57-DDDC-296A-3B334FAFD475</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waste_type_id" id="89805EB9-4CC9-A319-CC6C-2268F7426465">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 07:50:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
+<generatorID>DBEBE088-38FC-8E11-CEF8-CA927338B5AC</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>FC8BFDD8-6E91-65B4-96A5-A692E769D978</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7B5F7EFA-4EB7-D298-BF21-5E584F592A1C" name="WASTE_COLLECTION_WEIGHT PK">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 02:10:50 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0ABEE5A2-5A17-AACB-7374-DA9A5E8959F1</attributeRef>
+<attributeRef>C23B8F49-55BF-E900-EB91-9D05BDF974A3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

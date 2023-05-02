@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2C2FDF4E-F07F-7F80-25A9-336C1C98FBBE" name="WASTE_COLLECTION_WEIGHT">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>D1325BA5-9E7C-A1A1-1770-B1B159F79827</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bin_rfid" id="38945A89-790B-74B2-AF50-38F614288B96">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[bin frid]]></commentInRDBMS>
+<generatorID>0ABEE5A2-5A17-AACB-7374-DA9A5E8959F1</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0644397B-CA0E-DF70-D47E-DE74A28C664F" referredColumn="39B445D2-B3BC-CCDD-1842-7227CB4E9AE8"/>
+</associations>
+</Column>
+<Column name="ct_collect_date" id="7042D6C0-2067-4B20-4339-1A83D9F06A61">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date that the waste was collected (waste collection date)]]></commentInRDBMS>
+<generatorID>C23B8F49-55BF-E900-EB91-9D05BDF974A3</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0857F560-F9F1-C020-13B8-93E0A73D2779" referredColumn="B2CB9C6E-3DDA-BB60-09A5-750C1AF07D54"/>
+</associations>
+</Column>
+<Column name="wcw_weight" id="2D0607D8-199C-CC75-F8A7-CC7382BC667D">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste collection weight]]></commentInRDBMS>
+<generatorID>8F6E7E33-4079-B300-92ED-11C5E8BE1E64</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="wcw_overweight" id="CB1EFE0F-1AEF-2770-EC25-FE8A2DEC302A">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste overweight condition (Y/N)]]></commentInRDBMS>
+<generatorID>74FCB555-90ED-0D12-5F3B-FD4C1DE322A3</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cont_no" id="858731F9-B0E5-5EEC-EA3D-AE7D43528592">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<generatorID>36A1E305-9E17-BFC7-6094-A05B7B22939B</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0857F560-F9F1-C020-13B8-93E0A73D2779" referredColumn="5BEC27A7-5C3C-39C0-F73C-22643A0760BB"/>
+</associations>
+</Column>
+<Column name="waste_type_id" id="8367C481-EF7E-DB2E-BB4D-8F54D9407BA8">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
+<generatorID>89805EB9-4CC9-A319-CC6C-2268F7426465</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0857F560-F9F1-C020-13B8-93E0A73D2779" referredColumn="223E4EF6-76B0-87FD-6632-CC3223ACC3A6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE281FF7-C027-25D8-ED49-A4C3E225D14C" name="WASTE_COLLECTION_WEIGHT_PK">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>7B5F7EFA-4EB7-D298-BF21-5E584F592A1C</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38945A89-790B-74B2-AF50-38F614288B96"/>
+<colUsage columnID="7042D6C0-2067-4B20-4339-1A83D9F06A61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F80D03EF-7935-ADEA-58B9-7F7D3C3760AE" name="BIN_WASTE_COLLECTION_WEIGHT">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>EF62D266-4FE4-8EB8-6EAB-7BF8466510C0</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38945A89-790B-74B2-AF50-38F614288B96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C81F6DC-92B4-B152-B861-83EF81A79652" name="CT_WCW">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>DBEBE088-38FC-8E11-CEF8-CA927338B5AC</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7042D6C0-2067-4B20-4339-1A83D9F06A61"/>
+<colUsage columnID="858731F9-B0E5-5EEC-EA3D-AE7D43528592"/>
+<colUsage columnID="8367C481-EF7E-DB2E-BB4D-8F54D9407BA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

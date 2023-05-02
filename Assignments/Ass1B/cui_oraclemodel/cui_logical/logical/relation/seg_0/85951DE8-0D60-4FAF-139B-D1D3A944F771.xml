@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="STREET_PROPERTY" directorySegmentName="seg_0" id="85951DE8-0D60-4FAF-139B-D1D3A944F771">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-04-28 08:28:53 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<sourcePk>571A1B2B-C905-D184-817F-68226BFB8913</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>located on</nameOnSource>
+<nameOnTarget> </nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>38972BCB-4D9A-B860-D16C-AD121A6076E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E4A7D940-FFBE-648E-2809-571DAB841C32</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

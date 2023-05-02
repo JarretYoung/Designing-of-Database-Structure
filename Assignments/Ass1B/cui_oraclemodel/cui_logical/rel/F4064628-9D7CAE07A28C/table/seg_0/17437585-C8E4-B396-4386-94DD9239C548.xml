@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="17437585-C8E4-B396-4386-94DD9239C548" name="BIN_TYPE">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>8630FEE1-CE30-148F-ABAB-91699A756BB3</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bt_size" id="80271F01-80E8-8412-0762-FD4515E3C6A8">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bin type size]]></commentInRDBMS>
+<generatorID>40DFF54A-7E14-E321-A692-A8ABA4893C30</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="waste_type_id" id="E99EAB73-1CCF-FE5D-45A9-11786E066858">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
+<generatorID>1AA228DC-61D5-A81B-97EB-B8C4620F4068</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F96AE00-DDBB-F674-1539-E1117E0A7C56" referredColumn="CC9114DA-CBC9-7349-A5FC-BAED58CB8DDA"/>
+</associations>
+</Column>
+<Column name="bt_supply_cost" id="0337D47C-E078-2A95-8312-A7367858B836">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bin Type supply cost]]></commentInRDBMS>
+<generatorID>0DB28A12-3EE5-81DD-DAB4-ADC716021481</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A34A045E-7316-7925-24F2-55E1D1ED7D12" name="BIN_TYPE_PK">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>0A282216-29B8-4047-2D01-2793B386AC55</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80271F01-80E8-8412-0762-FD4515E3C6A8"/>
+<colUsage columnID="E99EAB73-1CCF-FE5D-45A9-11786E066858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3792B80B-E093-2887-A676-490937BE4A65" name="waste_type_bin_type">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>9F06AA67-1762-1518-539D-9D9139442010</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E99EAB73-1CCF-FE5D-45A9-11786E066858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

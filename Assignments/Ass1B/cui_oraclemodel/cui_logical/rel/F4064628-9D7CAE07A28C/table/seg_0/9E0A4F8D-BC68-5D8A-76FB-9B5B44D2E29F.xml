@@ -1,0 +1,182 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E0A4F8D-BC68-5D8A-76FB-9B5B44D2E29F" name="BIN">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>34FD33D8-1D93-0F0F-2BE7-108C986F2EA8</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bin_rfid" id="39B445D2-B3BC-CCDD-1842-7227CB4E9AE8">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[bin rfid]]></commentInRDBMS>
+<generatorID>1B423666-E660-C5CE-7A07-14FE8DE585B1</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bin_supply_date" id="CAF21D12-56D3-6385-96E2-CA71FAA3F7B7">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bin supply date]]></commentInRDBMS>
+<generatorID>9EF0D42E-4F5A-3179-2794-4FE7CAA7537D</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bin_replace_reason" id="7A917E43-D8D4-0A5D-44B3-EB5A32727E03">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bin replace reason]]></commentInRDBMS>
+<generatorID>C4709ECD-2F0D-3E4E-413A-FBB6AC73355E</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<constraintName>Bin_replace_reason</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="BF" description="Bin Failure (old age)"/>
+<valueDef value="DO" description="Damaged by owner "/>
+<valueDef value="DP" description="Damaged during pickup of waste"/>
+<valueDef value="ST" description="Stolen"/>
+</listOfValues>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prop_street_num" id="BB4DD553-4B2D-B504-1982-4D15C598E69C">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[property street number ]]></commentInRDBMS>
+<generatorID>82C8ECA9-DD83-739D-C3E6-7A54ADF29A16</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C227E0D-8104-9E56-06DA-1210D3582D38" referredColumn="2901F08B-DD05-0326-31F5-7B820C347E03"/>
+</associations>
+</Column>
+<Column name="street_id" id="5927B497-3B56-265C-C512-D72520FAEE83">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[street id]]></commentInRDBMS>
+<generatorID>78A9B887-935F-2861-88D3-5D043E05D07E</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C227E0D-8104-9E56-06DA-1210D3582D38" referredColumn="55E625BA-26D8-1511-F995-9869328CC8FF"/>
+</associations>
+</Column>
+<Column name="auth_name" id="BAF66471-C3E0-4FBC-FD88-857DDFB11DFD">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority name]]></commentInRDBMS>
+<generatorID>C1804314-F7A3-6BD8-7367-0E871FCE4ABA</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C227E0D-8104-9E56-06DA-1210D3582D38" referredColumn="78047FF9-13D9-B48F-F9FA-16CCE39921FC"/>
+</associations>
+</Column>
+<Column name="waste_type_id" id="9A7D131D-E57C-A983-1A78-09F1B10422AC">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
+<generatorID>C163D7CC-5C4B-EA4F-872E-03BCF70AFDFF</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE24BB7D-2B6C-ABB3-937F-6055572509F0" referredColumn="E99EAB73-1CCF-FE5D-45A9-11786E066858"/>
+</associations>
+</Column>
+<Column name="bt_size" id="3F3CF9CB-EBB7-645D-4431-307E93FB3915">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bin type size]]></commentInRDBMS>
+<generatorID>38A59A81-C0AC-75CA-FEE5-03795DC9A28C</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE24BB7D-2B6C-ABB3-937F-6055572509F0" referredColumn="80271F01-80E8-8412-0762-FD4515E3C6A8"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D3706D3-A885-F65A-B55E-77A3FF41DC28" name="BIN_PK">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>A67E4A20-D43F-43E7-E0F4-FDE897A49731</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39B445D2-B3BC-CCDD-1842-7227CB4E9AE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="274C88FB-4CD0-6E28-1210-34DAB7A203EE" name="BIN_TYPE_BIN">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>59DB5A73-6BDD-F13D-A5D2-104713C4EF98</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3F3CF9CB-EBB7-645D-4431-307E93FB3915"/>
+<colUsage columnID="9A7D131D-E57C-A983-1A78-09F1B10422AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1937783F-4D27-A7AD-4513-29BB7B646641" name="Property_bin">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-05-02 14:37:21 UTC</createdTime>
+<generatorID>C30B6F23-23C0-3EF1-D0C2-CB576854ECDE</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB4DD553-4B2D-B504-1982-4D15C598E69C"/>
+<colUsage columnID="5927B497-3B56-265C-C512-D72520FAEE83"/>
+<colUsage columnID="BAF66471-C3E0-4FBC-FD88-857DDFB11DFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

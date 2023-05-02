@@ -1,0 +1,162 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34FD33D8-1D93-0F0F-2BE7-108C986F2EA8" name="BIN">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:00:36 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="bin_rfid" id="1B423666-E660-C5CE-7A07-14FE8DE585B1">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:00:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[bin rfid]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bin_supply_date" id="9EF0D42E-4F5A-3179-2794-4FE7CAA7537D">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:01:58 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bin supply date]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bin_replace_reason" id="C4709ECD-2F0D-3E4E-413A-FBB6AC73355E">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:03:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bin replace reason]]></commentInRDBMS>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<constraintName>Bin_replace_reason</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="BF" description="Bin Failure (old age)"/>
+<valueDef value="DO" description="Damaged by owner "/>
+<valueDef value="DP" description="Damaged during pickup of waste"/>
+<valueDef value="ST" description="Stolen"/>
+</listOfValues>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prop_street_num" id="82C8ECA9-DD83-739D-C3E6-7A54ADF29A16">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:31:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[property street number ]]></commentInRDBMS>
+<generatorID>C30B6F23-23C0-3EF1-D0C2-CB576854ECDE</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>D73DAAFD-710B-2A19-929F-24C58AF47D51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street_id" id="78A9B887-935F-2861-88D3-5D043E05D07E">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:31:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[street id]]></commentInRDBMS>
+<generatorID>C30B6F23-23C0-3EF1-D0C2-CB576854ECDE</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>62F47D14-49CF-1B9A-075E-EB5D02EA682A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_name" id="C1804314-F7A3-6BD8-7367-0E871FCE4ABA">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:31:20 UTC</createdTime>
+<commentInRDBMS><![CDATA[authority name]]></commentInRDBMS>
+<generatorID>C30B6F23-23C0-3EF1-D0C2-CB576854ECDE</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>BA97D7E0-D914-F1D4-224E-070F97077E4A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="waste_type_id" id="C163D7CC-5C4B-EA4F-872E-03BCF70AFDFF">
+<createdBy>NyanCarrot</createdBy>
+<createdTime>2023-05-02 08:05:47 UTC</createdTime>
+<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
+<generatorID>59DB5A73-6BDD-F13D-A5D2-104713C4EF98</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>1AA228DC-61D5-A81B-97EB-B8C4620F4068</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bt_size" id="38A59A81-C0AC-75CA-FEE5-03795DC9A28C">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:29:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bin type size]]></commentInRDBMS>
+<generatorID>59DB5A73-6BDD-F13D-A5D2-104713C4EF98</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>40DFF54A-7E14-E321-A692-A8ABA4893C30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A67E4A20-D43F-43E7-E0F4-FDE897A49731" name="BIN PK">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:00:59 UTC</createdTime>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1B423666-E660-C5CE-7A07-14FE8DE585B1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
