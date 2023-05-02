@@ -50,11 +50,18 @@
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
+<constraintName>Bin_replace_reason</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>4</dataTypeSize>
+<listOfValues>
+<valueDef value="BF" description="Bin Failure (old age)"/>
+<valueDef value="DBO" description="Damaged by owner "/>
+<valueDef value="DDP" description="Damaged during pickup of waste"/>
+<valueDef value="S" description="Stolen"/>
+</listOfValues>
 <ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="overweight" id="60FAFF59-9AC4-622F-AD9B-45C977019BAF">

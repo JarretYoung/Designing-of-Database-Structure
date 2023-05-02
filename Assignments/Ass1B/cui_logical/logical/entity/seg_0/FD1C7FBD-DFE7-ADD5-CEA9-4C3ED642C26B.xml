@@ -23,10 +23,17 @@
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
+<constraintName>Waste_type_id</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
+<listOfValues>
+<valueDef value="G" description="Glass"/>
+<valueDef value="GW" description="Green waste"/>
+<valueDef value="LF" description="Landfill"/>
+<valueDef value="SR" description="Standard recycle"/>
+</listOfValues>
 <ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="waste_type_description" id="EE96EAD2-2231-2F00-A236-B5C2B74F7200">

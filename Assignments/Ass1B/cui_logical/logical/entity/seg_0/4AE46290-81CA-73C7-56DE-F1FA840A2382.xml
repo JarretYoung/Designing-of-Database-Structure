@@ -65,11 +65,17 @@
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
+<constraintName>wate_collection_intervals_chk</constraintName>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="F" description="Fortnightly"/>
+<valueDef value="M" description="Monthly"/>
+<valueDef value="W" description="Weekly"/>
+</listOfValues>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cont_no1" id="274BFBC1-17A9-AC1B-B73D-1F6A4E4375FE">
