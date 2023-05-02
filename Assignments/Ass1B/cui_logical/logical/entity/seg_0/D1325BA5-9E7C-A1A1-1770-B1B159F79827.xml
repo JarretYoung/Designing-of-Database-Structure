@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>16</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ct_collect_date" id="C23B8F49-55BF-E900-EB91-9D05BDF974A3">
 <createdBy>NyanCarrot</createdBy>
@@ -88,7 +88,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="waste_type_id" id="89805EB9-4CC9-A319-CC6C-2268F7426465">
 <createdBy>NyanCarrot</createdBy>
@@ -104,37 +104,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="bin_type_size" id="674C2454-2F45-B2C5-F267-C088B4FB8943">
-<createdBy>NyanCarrot</createdBy>
-<createdTime>2023-05-02 08:05:47 UTC</createdTime>
-<generatorID>EF62D266-4FE4-8EB8-6EAB-7BF8466510C0</generatorID>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<referedAttribute>38A59A81-C0AC-75CA-FEE5-03795DC9A28C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="waste_type_id1" id="C5B57EA9-D5B9-C441-ED3C-F484073CAA37">
-<createdBy>NyanCarrot</createdBy>
-<createdTime>2023-05-02 08:05:47 UTC</createdTime>
-<generatorID>EF62D266-4FE4-8EB8-6EAB-7BF8466510C0</generatorID>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<referedAttribute>C163D7CC-5C4B-EA4F-872E-03BCF70AFDFF</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

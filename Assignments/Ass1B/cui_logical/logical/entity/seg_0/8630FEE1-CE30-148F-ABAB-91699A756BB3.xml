@@ -42,7 +42,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="bin_type_supple_cost" id="0DB28A12-3EE5-81DD-DAB4-ADC716021481">
 <createdBy>wongenxin</createdBy>

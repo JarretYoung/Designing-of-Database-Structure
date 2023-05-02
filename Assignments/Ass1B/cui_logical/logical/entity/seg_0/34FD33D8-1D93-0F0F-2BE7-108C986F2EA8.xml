@@ -83,22 +83,6 @@
 </listOfValues>
 <ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="bin_type_size" id="38A59A81-C0AC-75CA-FEE5-03795DC9A28C">
-<createdBy>wongenxin</createdBy>
-<createdTime>2023-04-29 08:29:11 UTC</createdTime>
-<commentInRDBMS><![CDATA[Bin type size]]></commentInRDBMS>
-<generatorID>59DB5A73-6BDD-F13D-A5D2-104713C4EF98</generatorID>
-<ownerDesignName>cui_logical</ownerDesignName>
-<engineerTo>
-<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
-</engineerTo>
-<referedAttribute>40DFF54A-7E14-E321-A692-A8ABA4893C30</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>3</dataTypePrecision>
-<ownDataTypeParameters>,3,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="prop_street_num" id="82C8ECA9-DD83-739D-C3E6-7A54ADF29A16">
 <createdBy>wongenxin</createdBy>
 <createdTime>2023-04-29 08:31:20 UTC</createdTime>
@@ -113,7 +97,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="street_id" id="78A9B887-935F-2861-88D3-5D043E05D07E">
 <createdBy>wongenxin</createdBy>
@@ -129,7 +113,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="auth_name" id="C1804314-F7A3-6BD8-7367-0E871FCE4ABA">
 <createdBy>wongenxin</createdBy>
@@ -162,6 +146,22 @@
 <dataTypeSize>3</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="bin_type_size" id="38A59A81-C0AC-75CA-FEE5-03795DC9A28C">
+<createdBy>wongenxin</createdBy>
+<createdTime>2023-04-29 08:29:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Bin type size]]></commentInRDBMS>
+<generatorID>59DB5A73-6BDD-F13D-A5D2-104713C4EF98</generatorID>
+<ownerDesignName>cui_logical</ownerDesignName>
+<engineerTo>
+<item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
+</engineerTo>
+<referedAttribute>40DFF54A-7E14-E321-A692-A8ABA4893C30</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A67E4A20-D43F-43E7-E0F4-FDE897A49731" name="BIN PK">
@@ -174,8 +174,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>1B423666-E660-C5CE-7A07-14FE8DE585B1</attributeRef>
-<attributeRef>38A59A81-C0AC-75CA-FEE5-03795DC9A28C</attributeRef>
-<attributeRef>C163D7CC-5C4B-EA4F-872E-03BCF70AFDFF</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
