@@ -1,21 +1,21 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="OWNER_PROPERTY" directorySegmentName="seg_0" id="E1B0715F-D6B8-6BB1-75A9-D81E6BBDB59D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PROPERTY_DEED" directorySegmentName="seg_0" id="8D64F347-BA10-1765-3441-BFF7ECB8F44C">
 <createdBy>NyanCarrot</createdBy>
-<createdTime>2023-04-28 08:22:15 UTC</createdTime>
+<createdTime>2023-05-02 03:33:03 UTC</createdTime>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
 <item key="F4064628-04B3-F9ED-EDB3-9D7CAE07A28C" value="true"/>
 </engineerTo>
-<sourcePk>9E1DC0D3-B87C-10A1-0F34-20F8E4CA144A</sourcePk>
+<sourcePk>A86D9CE9-43EF-4E87-F422-32BA02C7FF97</sourcePk>
 <identifying>false</identifying>
-<nameOnSource>owns</nameOnSource>
+<nameOnSource>is listed in</nameOnSource>
 <nameOnTarget> </nameOnTarget>
 <optionalSource>false</optionalSource>
 <optionalTarget>false</optionalTarget>
-<sourceCardinality>*</sourceCardinality>
-<sourceEntity>089DA0ED-752A-3DEC-A602-B27FDF16DDAD</sourceEntity>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E4A7D940-FFBE-648E-2809-571DAB841C32</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>E4A7D940-FFBE-648E-2809-571DAB841C32</targetEntity>
+<targetEntity>7EE4DCD0-0562-04C8-3C86-9848528500F5</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
