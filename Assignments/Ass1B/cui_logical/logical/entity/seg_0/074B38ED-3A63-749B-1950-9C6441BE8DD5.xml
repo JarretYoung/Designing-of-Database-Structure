@@ -31,7 +31,6 @@
 <Attribute name="cont_no" id="C9B13F9C-BD57-DDDC-296A-3B334FAFD475">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-05-02 07:49:08 UTC</createdTime>
-<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
 <generatorID>BF99B2BC-909C-A6A5-EDE4-6F00EA0DD42C</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
@@ -42,12 +41,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>5</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>5,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="waste_type_id" id="FC8BFDD8-6E91-65B4-96A5-A692E769D978">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-05-02 07:50:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[Waste type id]]></commentInRDBMS>
 <generatorID>BF99B2BC-909C-A6A5-EDE4-6F00EA0DD42C</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
@@ -58,12 +56,11 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>3</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="driver_no" id="C9B1C207-5434-FEFA-1659-6DDAFBCB79C9">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-05-02 02:12:51 UTC</createdTime>
-<commentInRDBMS><![CDATA[driver number ]]></commentInRDBMS>
 <generatorID>0CEC3183-B197-6F5C-3CAB-0E910892B1FE</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>
@@ -79,7 +76,6 @@
 <Attribute name="truck_vin" id="2B24B72D-2436-0EE3-96A6-A7ABC0F5248A">
 <createdBy>NyanCarrot</createdBy>
 <createdTime>2023-05-02 02:12:51 UTC</createdTime>
-<commentInRDBMS><![CDATA[truck vin]]></commentInRDBMS>
 <generatorID>0CEC3183-B197-6F5C-3CAB-0E910892B1FE</generatorID>
 <ownerDesignName>cui_logical</ownerDesignName>
 <engineerTo>

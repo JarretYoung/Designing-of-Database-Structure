@@ -29,7 +29,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>16</dataTypePrecision>
-<ownDataTypeParameters>,16,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ct_collect_date" id="C23B8F49-55BF-E900-EB91-9D05BDF974A3">
 <createdBy>NyanCarrot</createdBy>
